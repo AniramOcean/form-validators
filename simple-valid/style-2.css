@@ -1,0 +1,5 @@
+.err-message {
+    color: red;
+    border: 1px red solid;
+    display: none;
+}

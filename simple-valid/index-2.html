@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Validation form 2</title>
+    <link rel="stylesheet" href="style-2.css">
+</head>
+<body>
+
+<div id="error" class="err-message"></div>
+<form id="form" action="/" method="get">
+    <div>
+        <label for="firstName">First Name *</label>
+        <input id="firstName" name="first-name" type="text" placeholder="Enter your first name" required>
+    </div>
+
+    <div>
+        <label for="lastName">Last Name</label>
+        <input id="lastName" name="last-name" type="text" placeholder="Enter your last name">
+    </div>
+
+    <div>
+        <label for="password">Password *</label>
+        <input id="password" name="password" type="password" placeholder="Create a password">
+    </div>
+
+    <button type="submit">Submit</button>
+</form>
+
+
+<script src="index-2.js"></script>
+</body>
+</html>
